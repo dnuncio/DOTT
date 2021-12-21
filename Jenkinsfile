@@ -7,7 +7,7 @@ pipeline {
         }
       }
 
-      stage("Git clonee") {
+      stage("Git cloneee") {
         steps {
           git url: 'https://github.com/caflorest/DOTT.git'
         }
